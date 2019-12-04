@@ -1,0 +1,121 @@
+.checkout {
+  .headline {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #1B2125;
+
+    .italic {
+      font-style: italic;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+  #cc-wizard {
+    .cc-wizard-section {
+      margin: 45px auto;
+
+
+      .cc-card {
+        background: #FFFFFF;
+        padding: 10px;
+
+        .option {
+          background: #FFFFFF;
+          border: 1px solid #DDE3E8;
+          box-sizing: border-box;
+          border-radius: 3px;
+          padding: 30px;
+
+          span {
+            @apply block font-sans font-light;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: #788995;
+
+          }
+
+          .headline {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #1B2125;
+          }
+
+          .cc-label-price {
+            font-style: italic;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 20px;
+            /* identical to box height */
+
+            color: #1B2125;
+          }
+        }
+      }
+
+
+      .cc-label {
+        font-style: italic;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+        text-transform: uppercase;
+        color: #D4D9DD;
+      }
+
+      .cc-form {
+        .cc-form-control {
+          display: block;
+          padding: 16px;
+
+          .cc-form-control-input {
+            background: #FFFFFF;
+            border: 1px solid #DDE3E8;
+            box-sizing: border-box;
+            border-radius: 3px;
+            padding: 12px;
+            width: 100%;
+            display: block;
+
+            &::placeholder {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 20px;
+              color: #788995;
+            }
+
+          }
+        }
+      }
+
+      .cc-wizard-btn {
+        background: #0000FF;
+        box-shadow: 0px 2px 7px rgba(120, 137, 149, 0.254784);
+        border-radius: 3px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+
+      }
+
+    }
+  }
+
+}
+
