@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{316:function(e,n,t){"use strict";t.r(n);var l={name:"likes"},c=t(0),component=Object(c.a)(l,(function(){var e=this.$createElement,n=this._self._c||e;return n("div",{staticClass:"my-12 block "},[n("div",[n("user-likes-listing")],1)])}),[],!1,null,null,null);n.default=component.exports}}]);
