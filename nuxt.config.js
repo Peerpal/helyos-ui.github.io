@@ -26,9 +26,7 @@ export default {
       }
     ]
   },
-  router: {
-    base: '/<helyos-ui.github.io>/'
-  },
+
   /*
   ** Customize the progress-bar color
   */
